@@ -1,0 +1,23 @@
+{
+  "name": "narrow-example-provider",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "narrow provider to open files",
+  "repository": "https://github.com/t9md/atom-example-provider",
+  "license": "MIT",
+  "activationCommands": {
+    "atom-text-editor": [
+      "narrow:example-provider"
+    ]
+  },
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "consumedServices": {
+    "narrow": {
+      "versions": {
+        "1.0.0": "consumeNarrow"
+      }
+    }
+  }
+}

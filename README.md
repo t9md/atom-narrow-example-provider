@@ -1,0 +1,1 @@
+# narrow-example-provider
